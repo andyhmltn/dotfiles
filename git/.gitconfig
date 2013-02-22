@@ -1,0 +1,11 @@
+[alias]
+	unadd = reset HEAD
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = Andy Hamilton
+	email = andy@fine.io
+[github]
+	user = andyhmltn
+[color]
+	diff = auto
+        interactive = auto

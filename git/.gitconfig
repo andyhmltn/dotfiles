@@ -1,6 +1,7 @@
 [alias]
 	unadd = reset HEAD
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	changes = show --pretty="format:" --color --name-only
 [user]
 	name = Andy Hamilton
 	email = andyhmltn@gmail.com

@@ -1,5 +1,5 @@
 ###
-# CTRL-B + P = Awesome layout!
+# CTRL-B then SHIFT + P = Awesome layout!
 ###
 split-window -h 
 split-window 

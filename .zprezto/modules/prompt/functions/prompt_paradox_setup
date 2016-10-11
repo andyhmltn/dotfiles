@@ -2,7 +2,7 @@
 pmodload 'helper'
 
 CURRENT_BG='NONE'
-SEGMENT_SEPARATOR='⮀'
+SEGMENT_SEPARATOR=''
 
 
 # Begin a segment
@@ -97,13 +97,13 @@ function prompt_paradox_setup {
   zstyle ':prezto:module:git:info:added' format '✚'
   zstyle ':prezto:module:git:info:ahead' format '⬆'
   zstyle ':prezto:module:git:info:behind' format '⬇'
-  zstyle ':prezto:module:git:info:branch' format '⭠ %b'
+  zstyle ':prezto:module:git:info:branch' format '%b'
   zstyle ':prezto:module:git:info:commit' format '➦ %.7c'
   zstyle ':prezto:module:git:info:deleted' format '✖'
   zstyle ':prezto:module:git:info:modified' format '✱'
   zstyle ':prezto:module:git:info:position' format '%p'
   zstyle ':prezto:module:git:info:renamed' format '➙'
-  zstyle ':prezto:module:git:info:stashed' format 's'
+  zstyle ':prezto:module:git:info:stashed' format ''
   zstyle ':prezto:module:git:info:unmerged' format '═'
   zstyle ':prezto:module:git:info:untracked' format '?'
   zstyle ':prezto:module:git:info:keys' format \

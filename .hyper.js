@@ -37,7 +37,7 @@ module.exports = {
     borderColor: '#333',
     
     // Window size
-    windowSize: [700, 450],
+    windowSize: [810, 450],
 
     // custom css to embed in the main window
     css: '',
